@@ -32,8 +32,8 @@ sections:
   label: Configuration
 upload_dir: static/images
 public_path: "/images"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: ":filename:"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
